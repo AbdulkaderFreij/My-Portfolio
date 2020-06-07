@@ -117,7 +117,7 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2013
+            2019 - 2020
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -125,21 +125,39 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              web design
+              FULL STACK WEB DEVELOPMENT PROGRAM
             </Typography>
-            <Typography variant="body1" align="center" style={{color:"tomato"}}>
-              company name where worked
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Codi Tech | Beirut, Lebanon
             </Typography>
-            <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-              lorem ipsum dolor sit amet consectetur, lorem ipsum dolor sit amet
-              consectetur,lorem ipsum dolor sit amet consectetur,
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "tan" }}
+            >
+              Responsible for working on a range of projects, designing
+              appealing websites and interacting daily and working closely with
+              other members in the team. Developing front end and backend
+              functionalities of sites.
             </Typography>
+            <ul style={{ color: "tan" }}>
+              Technologies used:
+              <li>Front-end: HTML, CSS, JavaScript, React, Bootstrap</li>
+              <li>Back-end: NodeJS, PHP, SQL, Express, Laravel</li>
+              <li>Server Management (LAMP Stack, Linux)</li>
+              <li>Project Management (AGILE Methodology)</li>
+              <li>Content Management System (WordPress)</li>
+            </ul>
           </Box>
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2014
+            2019
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -147,21 +165,32 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              html & css
+              Junior short-term expert
             </Typography>
-            <Typography variant="body1" align="center" style={{color:"tomato"}}>
-              company name where worked
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              ProVTE | Dekwane, Lebanon
             </Typography>
-            <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-              lorem ipsum dolor sit amet consectetur, lorem ipsum dolor sit amet
-              consectetur,lorem ipsum dolor sit amet consectetur,
-            </Typography>
+            <ul style={{ color: "tan" }}>
+              Responsibilities
+              <li>
+                Development of 3 selected modules in Renewable Energy & Energy
+                Saving (Solar Water Heating).
+              </li>
+              <li>
+                Development of 4 occupational and qualification standards for
+                training modules in the area of climatization.
+              </li>
+            </ul>
           </Box>
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2015
+            2017 - 2019
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -169,21 +198,32 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              javascript full stack
+              FABRICATION ENGINEER
             </Typography>
-            <Typography variant="body1" align="center" style={{color:"tomato"}}>
-              company name where worked
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Zeenni Steel | Bchamoun, Lebanon
             </Typography>
-            <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-              lorem ipsum dolor sit amet consectetur, lorem ipsum dolor sit amet
-              consectetur,lorem ipsum dolor sit amet consectetur,
-            </Typography>
+            <ul style={{ color: "tan" }}>
+              Responsibilities
+              <li>Calculating client quotations.</li>
+              <li>
+                Providing pre-sales technical assistance and product education.
+              </li>
+              <li>
+                Supervising production activities and providing technical inputs
+                for methodologies of production.
+              </li>
+            </ul>
           </Box>
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2017
+            2015 - 2017
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -191,21 +231,34 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              react | redux
+              Design Engineer
             </Typography>
-            <Typography variant="body1" align="center" style={{color:"tomato"}}>
-              company name where worked
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Empower Air Technologies | KSA, Jeddah
             </Typography>
-            <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-              lorem ipsum dolor sit amet consectetur, lorem ipsum dolor sit amet
-              consectetur,lorem ipsum dolor sit amet consectetur,
-            </Typography>
+            <ul style={{ color: "tan" }}>
+              Responsibilities
+              <li>
+                Follow up and prepare submittals and samples to contractors
+                under the direction of the technical manager.
+              </li>
+              <li>
+                Analyse drawings, specs, and submittals and distribute them to
+                concerned parties.
+              </li>
+              <li>Identify and select materials needed for production.</li>
+              <li>Design, model, and test prototypes for products.</li>
+            </ul>
           </Box>
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2018 - 2020
+            2014 - 2015
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -213,15 +266,25 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              mern stack
+              Sales Engineer
             </Typography>
-            <Typography variant="body1" align="center" style={{color:"tomato"}}>
-              company name where worked
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              International Group Co. | Beirut, Lebanon
             </Typography>
-            <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-              lorem ipsum dolor sit amet consectetur, lorem ipsum dolor sit amet
-              consectetur,lorem ipsum dolor sit amet consectetur,
-            </Typography>
+            <ul style={{ color: "tan" }}>
+              Responsibilities
+              <li>Calculating client quotations.</li>
+              <li>
+                Providing pre-sales technical assistance and product education,
+                and after-sales support services.
+              </li>
+              <li>Analysing costs and sales.</li>
+              <li>Preparing reports for head office.</li>
+            </ul>
           </Box>
         </Box>
       </Box>

@@ -2,7 +2,7 @@ import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import {Typography, Avatar, Grid, Box} from '@material-ui/core';
 import Typed from 'react-typed';
-import avatar from '../images/avatar.png'
+import avatar from "../images/DSCN0041.jpg";
 
 //CSS STYLES
 const useStyles = makeStyles(theme=>({
@@ -33,14 +33,14 @@ const Header = () => {
     return (
         <Box className={classes.typedContainer}>
             <Grid container justify="center">
-            <Avatar className={classes.avatar} src={avatar} alt="Russel Crowe"/>
+            <Avatar className={classes.avatar} src={avatar} alt="Abdulkader Freij"/>
             </Grid>
             <Typography className={classes.title} variant='h4'>
                 <Typed strings={["Abdulkader Freij"]} typeSpeed={40}/>
             </Typography>
             <br/>
             <Typography className={classes.subtitle} variant='h4'>
-                <Typed strings={["Web Design", "Web Development", "MERN Stack"]} typeSpeed={40} backSpeed={60} loop/>
+                <Typed strings={["Web Design", "Web Development", "UX/UI Design"]} typeSpeed={40} backSpeed={60} loop/>
             </Typography>
         </Box>
     )

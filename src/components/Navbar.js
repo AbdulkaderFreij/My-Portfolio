@@ -4,12 +4,12 @@ import {makeStyles} from '@material-ui/core/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import {AppBar, Toolbar, ListItem, IconButton, ListItemText, Avatar, Divider, List, Typography, Box, ListItemIcon} from '@material-ui/core';
 import {ArrowBack, AssignmentInd,Home, Apps, ContactMail} from '@material-ui/icons';
-import avatar from "../images/avatar.png";
+import avatar from "../images/DSCN0041.jpg";
 import Footer from './Footer';
 
 // CSS STYLES
 const useStyles = makeStyles(theme=>({
-    menuSliderContaier:{
+    menuSliderContainer:{
         width:250,
         background:'#511',
         height:'100%'
@@ -55,7 +55,7 @@ const Navbar = () => {
     setState({...state, [slider]:open});
     const classes= useStyles();
     const sideList = slider => (
-        <Box className={classes.menuSliderContaier} component='div' onClick={toggleSlider(slider, false)}>
+        <Box className={classes.menuSliderContainer} component='div' onClick={toggleSlider(slider, false)}>
         <Avatar className={classes.avatar} src={avatar} alt=""/>
         <Divider/>
         <List>
