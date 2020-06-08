@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import {Link} from "react-router-dom";
+import {Link, withRouter} from "react-router-dom";
 import {makeStyles} from '@material-ui/core/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import {AppBar, Toolbar, ListItem, IconButton, ListItemText, Avatar, Divider, List, Typography, Box, ListItemIcon} from '@material-ui/core';
-import {ArrowBack, AssignmentInd,Home, Apps, ContactMail} from '@material-ui/icons';
+import {ArrowBack, AssignmentInd,Home, Apps, ContactMail, CloudDownload} from '@material-ui/icons';
 import avatar from "../images/DSCN0041.jpg";
 import Footer from './Footer';
 
@@ -47,7 +47,7 @@ const menuItems = [
         listPath: "/contacts"
     },
 ]
-const Navbar = () => {
+const Navbar = (props) => {
     const [state, setState] = useState({
         right:false
     })
@@ -60,13 +60,21 @@ const Navbar = () => {
         <Divider/>
         <List>
             {menuItems.map((listItem,key)=>(
+                <>
                 <ListItem button key={key} component={Link} to={listItem.listPath}>
                     <ListItemIcon className={classes.listItem}>
                         {listItem.listIcon}
                     </ListItemIcon>
                     <ListItemText className={classes.listItem} primary={listItem.listText}/>
                 </ListItem>
+                </>
             ))}
+                    <ListItem button download="Resume" component={Link} onClick={(event) => { event.preventDefault(); window.open('../Resume.pdf'); }}>
+                    <ListItemIcon className={classes.listItem}>
+                    <CloudDownload/>
+                    </ListItemIcon>
+                    <ListItemText className={classes.listItem} primary={"Download"}/>
+                </ListItem>
 
         </List>
     </Box>
@@ -93,4 +101,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default withRouter(Navbar)
