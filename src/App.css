@@ -8,3 +8,12 @@ body{
     -o-background: cover;
     background: cover;
 }
+
+@keyframes jump {
+    0%   {transform: translate3d(0,0,0);}
+    10%  {transform: translate3d(0,2px,0); }
+    100%  {transform: translate3d(0,2px,0); }
+}
+  .poop {
+    animation: jump 1s linear alternate infinite;
+  }
