@@ -53,7 +53,7 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd />,
-    listText: "Resume",
+    listText: "Experience",
     listPath: "/resume",
   },
   {
@@ -104,7 +104,7 @@ const Navbar = () => {
           <ListItemIcon className={classes.listItem}>
             <CloudDownload />
           </ListItemIcon>
-          <ListItemText className={classes.listItem} primary="Download" />
+          <ListItemText className={classes.listItem} primary="Resume" />
         </ListItem>
       </List>
     </Box>

@@ -69,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeLineYear: {
     textAlign: "center",
-    maxWidth: "9.375rem",
+    maxWidth: "7em",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     background: "tomato",
