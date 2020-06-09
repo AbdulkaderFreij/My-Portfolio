@@ -134,16 +134,12 @@ const Resume = () => {
             >
               Codi Tech | Beirut, Lebanon
             </Typography>
-            <Typography
-              variant="subtitle1"
-              align="center"
-              style={{ color: "tan" }}
-            >
-              Responsible for working on a range of projects, designing
-              appealing websites and interacting daily and working closely with
-              other members in the team. Developing front end and backend
-              functionalities of sites.
-            </Typography>
+            <ul style={{ color: "tan" }}>
+            Responsibilities:
+              <li>Designing appealing websites</li>
+              <li>Daily interacting and working closely with other members in the team.</li>
+              <li>Developing front end and backend functionalities of sites.</li>
+            </ul>
             <ul style={{ color: "tan" }}>
               Technologies used:
               <li>Front-end: HTML, CSS, JavaScript, React, Bootstrap</li>
