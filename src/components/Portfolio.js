@@ -61,14 +61,14 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                   <Button size="small" color="primary">
                       Share
                   </Button>
                   <Button size="small" color="primary">
                       Live Demo
                   </Button>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
                 {/* Project 2 */}
@@ -96,14 +96,14 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                   <Button size="small" color="primary">
                       Share
                   </Button>
                   <Button size="small" color="primary">
                       Live Demo
                   </Button>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
                 {/* Project 3 */}
@@ -131,14 +131,14 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                   <Button size="small" color="primary">
                       Share
                   </Button>
                   <Button size="small" color="primary">
                       Live Demo
                   </Button>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
                 {/* Project 4 */}
@@ -166,14 +166,14 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                   <Button size="small" color="primary">
                       Share
                   </Button>
                   <Button size="small" color="primary">
                       Live Demo
                   </Button>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
                 {/* Project 5 */}
@@ -201,14 +201,14 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                   <Button size="small" color="primary">
                       Share
                   </Button>
                   <Button size="small" color="primary">
                       Live Demo
                   </Button>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
                         {/* Project 6 */}
@@ -236,14 +236,14 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                   <Button size="small" color="primary">
                       Share
                   </Button>
                   <Button size="small" color="primary">
                       Live Demo
                   </Button>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
       </Grid>

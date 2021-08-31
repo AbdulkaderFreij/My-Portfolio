@@ -114,6 +114,42 @@ const Resume = () => {
         </Typography>
         <Box component="div" className={classes.timeline}>
           <Typography
+              variant="h2"
+              className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            >
+              2020 - Present
+            </Typography>
+            <Box component="div" className={classes.timeLineItem}>
+              <Typography
+                variant="h5"
+                align="center"
+                className={classes.subHeading}
+              >
+                Junior Full Stack Web Developer
+              </Typography>
+              <Typography
+                variant="body1"
+                align="center"
+                style={{ color: "tomato" }}
+              >
+                Toothpick & Markit | Beirut, Lebanon
+              </Typography>
+              <ul style={{ color: "tan" }}>
+              Responsibilities:
+                <li>Involved in two products (markit & toothpick)</li>
+                <li>Daily interacting and working closely with other members in the team.</li>
+                <li>Developing front end and backend functionalities of these two products.</li>
+                <li>Write reusable and maintainable code.</li>
+              </ul>
+              <ul style={{ color: "tan" }}>
+                Technologies used:
+                <li>Front-end: Vuejs, Vuetify, Blade</li>
+                <li>Back-end: Laravel, Lumen</li>
+                <li>Server Management (LAMP Stack, Linux)</li>
+                <li>Project Management (AGILE Methodology)</li>
+              </ul>
+            </Box>
+          <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >

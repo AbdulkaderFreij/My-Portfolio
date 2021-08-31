@@ -40,7 +40,7 @@ const Header = () => {
             </Typography>
             <br/>
             <Typography className={classes.subtitle} variant='h4'>
-                <Typed strings={["Web Design", "Web Development", "UX/UI Design"]} typeSpeed={40} backSpeed={60} loop/>
+                <Typed strings={["Web Development", "UX/UI Design", "Web Design"]} typeSpeed={40} backSpeed={60} loop/>
             </Typography>
         </Box>
     )
